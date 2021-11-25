@@ -10,5 +10,5 @@ This repository contains codes for basic algorithms written in python following 
 
 - Create a new folder with algorithm name
 - Create two python folder: `algorithm_name.py` and `test_algorithm_name.py`
-- `test_algorithm_name.py` will contain unit tests for the algorithm
+- `test_algorithm_name.py` will contain unit tests for the algorithm (see `linear_search` folder for reference)
 - Create a new branch and send a PR. Github actions will automatically run unit tests for your code
