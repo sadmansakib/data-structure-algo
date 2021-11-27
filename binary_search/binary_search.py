@@ -4,7 +4,7 @@ T = TypeVar("T", str, int, float)
 
 def binary_search(list: List[T], var : T) -> bool:
     if list:
-        if var > list[len(list)-1] or var < list[len(list)-1]:
+        if var > list[len(list)-1] or var < list[0]:
             return False
 
         mid_index = len(list) // 2

@@ -20,3 +20,6 @@ class Test_binary_search(unittest.TestCase):
     
     def test_empty_list(self):
         self.assertEqual(bsearch.binary_search([], 1), False)
+
+    def test_bin_str_found(self):
+        self.assertEqual(bsearch.binary_search(['a','b','c','d','e'], 'a'),True)
